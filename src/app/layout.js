@@ -17,13 +17,13 @@ export default function RootLayout({ children }) {
 
 
           <nav >
-            <div class="flex  justify-between items-center mx-auto max-w-screen-xl p-4">
+            <div class="flex   justify-between items-center mx-auto max-w-screen-xl p-4">
               <a href="https://flowbite.com" class="flex items-center space-x-3 ">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 " alt="Flowbite Logo" />
                 <span class=" self-center text-3xl font-semibold whitespace-nowrap text-gega-red bg-gradient-to-r from-indigo-500">NETFLIX</span>
               </a>
               <div class="flex items-center  ">
-                <input class="bg-black border-solid border-2 border-gega-red mr-3" type="text" />
+                <input class="bg-black  border-solid border-2 border-gega-red mr-3" placeholder="search" type="text" />
                 <a href="#" class=" bg-gega-red md:w-20 text-center h-7  text-black   hover:underline">Login</a>
               </div>
             </div>
@@ -52,7 +52,9 @@ export default function RootLayout({ children }) {
 
         </header>
         <main>{children}</main>
-        <footer><span class="block text-sm text-gega-red text-center ">© 2024 <a href="https://github.com/BURAKCIDA?tab=repositories" class="hover:underline">BURAK CIDA</a></span></footer>
+        <footer>
+          <span class="block text-sm text-gega-red text-center ">© 2024 <a href="https://github.com/BURAKCIDA?tab=repositories" class="hover:underline">BURAK CIDA</a></span>
+        </footer>
       </body>
     </html >
   );

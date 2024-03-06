@@ -23,5 +23,49 @@ li a {
 li a:hover {
   text-decoration: underline;
   color: brown;
+  font-style: italic;
 
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0px;
+  color: #b91c1c;
+  font-weight: bold;
+}
+
+.link {
+  position: absolute;
+  overflow: hidden;
+
+  top: 30%
+}
+
+.link h3 {
+  text-align: center;
+  opacity: 0;
+
+
+}
+
+.img {
+  margin: 0px 10px;
+}
+
+
+.link p {
+  opacity: 0;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.link:hover h3 {
+  opacity: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.link:hover p {
+  opacity: 1;
+  margin: 0px 5px;
 }
