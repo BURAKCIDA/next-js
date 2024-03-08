@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import Link from 'next/link'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -33,16 +33,17 @@ export default function RootLayout({ children }) {
               <div class="flex  ">
                 <ul class="flex flex-row  mt-0 space-x-8  mx-auto md:text-xl ">
                   <li>
-                    <a href="#"  >Home</a>
+                    <a href="/"  >HOME</a>
+
                   </li>
                   <li>
-                    <a href="#">Company</a>
+                    <a href="/science">SCIENCE</a>
                   </li>
                   <li>
-                    <a href="#">Team</a>
+                    <a href="/history">HISTORY</a>
                   </li>
                   <li>
-                    <a href="#">Features</a>
+                    <a href="/marvel">MARVEL</a>
                   </li>
                 </ul>
               </div>
